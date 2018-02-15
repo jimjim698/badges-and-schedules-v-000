@@ -19,4 +19,5 @@ new_array = []
   new_array <<  "Hello, #{speaker}! You'll be assigned to room #{counter}!"
     counter += 1
   end
+  new_array
 end
