@@ -11,3 +11,12 @@ array.each do |name|
   end
   new_array
 end
+
+def assign_rooms(array)
+  counter = 1
+  array.each do |speaker|
+    "Hello, #{speaker}! You'll be assigned to room #{counter}!"
+    counter += 1
+  end
+end
+  
