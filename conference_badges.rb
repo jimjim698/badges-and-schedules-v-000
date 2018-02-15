@@ -21,3 +21,13 @@ new_array = []
   end
   new_array
 end
+
+def printer
+  batch_badge_creator(array).each do |names|
+    puts names
+  end
+    assign_rooms(array).each do |rooms|
+      puts |rooms|
+    end
+  end
+  
