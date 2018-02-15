@@ -1,7 +1,5 @@
 # Write your code here.
 
-def badge_maker(array)
-  array.each do |name|
+def badge_maker(name)
     puts "Hello, my name is #{name}."
   end
-end
